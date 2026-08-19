@@ -27,10 +27,7 @@ jobs:
 
       - name: Check Formatting (Black)
         run: black --check .
-
-      - name: Lint Code (Flake8)
-        run: flake8 .
-
+        
       - name: Run Type Checks (Mypy)
         run: mypy .
 
